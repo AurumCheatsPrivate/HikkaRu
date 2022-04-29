@@ -331,7 +331,7 @@ class ShitQuotesMod(loader.Module):
         quote.name = "SQuote.webp"
 
         await utils.answer(m, quote)
-        return await m[-1].delete()
+        
 
 
     async def fakequote_parse_messages(self, args: str, reply: Message):
